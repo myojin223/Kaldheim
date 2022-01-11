@@ -618,16 +618,16 @@
                 </Text>
                 <SquishBox>
                     <Main id="set_symbol">
-                        <Spacer x="2893" y="2550" width="10" height="220"/>
+                        <Spacer x="2900" y="2550" width="10" height="220"/>
                         <Group>
                             <Selector>
                                 <!-- Certain sets don't use a uniform color palette, so this is a necessary evil -->
-                                <SVG x="2851" y="2628" src="${rarity}/${proximity.options.set_symbol}" width="350" height="155" horizontal_alignment="end">
+                                <SVG x="2876" y="2628" src="${rarity}/${proximity.options.set_symbol}" width="350" height="155" horizontal_alignment="end">
                                     <Conditions>
                                         <FileExists src="${rarity}/${proximity.options.set_symbol}.svg"/>
                                     </Conditions>
                                 </SVG>
-                                <SVG x="2935" y="2680" src="${proximity.options.set_symbol}" width="350" height="155" horizontal_alignment="end">
+                                <SVG x="2960" y="2680" src="${proximity.options.set_symbol}" width="350" height="155" horizontal_alignment="end">
                                     <Conditions>
                                         <FileExists src="${proximity.options.set_symbol}.svg"/>
                                     </Conditions>
